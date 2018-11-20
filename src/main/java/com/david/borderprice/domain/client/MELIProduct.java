@@ -10,6 +10,7 @@ public class MELIProduct {
 	private String currency_id;
 	private String condition;
 	private String permalink;
+	
 	public String getId() {
 		return id;
 	}
