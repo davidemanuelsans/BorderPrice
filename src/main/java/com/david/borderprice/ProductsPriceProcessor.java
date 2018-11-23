@@ -32,7 +32,7 @@ public class ProductsPriceProcessor {
 				minPrice = Math.min(minPrice, price);
 				sumAvg += price;
 			}
-			sumAvg = sumAvg / apiResponse.size();
+			sumAvg = sumAvg / response.getResults().size();
 			
 			products.add(productBuilder
 						.withAveragePrice(sumAvg)
